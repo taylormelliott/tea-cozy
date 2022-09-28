@@ -145,11 +145,47 @@ footer {
     margin: auto;
 }
 
-/* @media screen and (max-width: 1146px) {
-    .sectionOne {
-        width: 60rem;
-    }
-} */
+/* Style the navigation menu */
+.topnav {
+    /* overflow: hidden; */
+    background-color: #333;
+    position: relative;
+   right: -173px;
+    top: -25px;
+  }
+  
+  /* Hide the links inside the navigation menu (except for logo/home) */
+  .topnav #myLinks {
+    display: none;
+  }
+  
+  /* Style navigation menu links */
+  .topnav a {
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+  }
+  
+  /* Style the hamburger menu */
+  .topnav a.icon {
+    background: black;
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  
+  /* Add a grey background color on mouse-over */
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  
+
+
 
 @media screen and (max-width: 414px) {
     /* body {
@@ -188,8 +224,17 @@ footer {
     .sectionTwo h4 {
         display: none;
     }
+    .desktopNav {
+        display: none;
+    }
     .footer {
         margin-left: 35.5rem;
         width: 60rem;
+    }
+}
+
+@media  screen and (min-width: 415px) { 
+    .topnav {
+        display: none;
     }
 }
