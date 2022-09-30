@@ -187,7 +187,7 @@ footer {
 
 
 
-@media screen and (max-width: 414px) {
+@media screen and (max-width: 500px) {
     /* body {
         overflow: hidden;
     } */
@@ -233,7 +233,7 @@ footer {
     }
 }
 
-@media  screen and (min-width: 415px) { 
+@media  screen and (min-width: 500px) { 
     .topnav {
         display: none;
     }
