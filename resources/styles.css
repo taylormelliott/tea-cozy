@@ -193,11 +193,12 @@ footer {
     } */
     .sectionOne {
         margin-left: 5.1rem;
+        width: 100%;
     }
     .logo {
-        height: 15rem;
-        margin-top: 40rem;
-        margin-left: 16rem;
+        height: 10rem;
+        margin-top: 50rem;
+        margin-left: 10rem;
     }
     .sectionOne div{
         display: none;
@@ -217,9 +218,13 @@ footer {
     .sectionTwo figcaption {
         font-size: 4rem;;
     }
-    #sectionTwo_mobile {
-        width: 60rem;
+    /* #sectionTwo_mobile {
+        width: 60rem; */
         
+    }
+    .sectionTwo img {
+        width: 20rem;
+        height: auto;
     }
     .sectionTwo h4 {
         display: none;
