@@ -199,47 +199,48 @@ footer {
 
 @media screen and (max-width: 500px) {
     body {
-        overflow-x: hidden;
+        /* overflow-x: hidden; */
     }
     .sectionOne {
-        margin-left: 5.1rem;
         width: 100%;
     }
     .logo {
         height: 7rem;
         z-index: 1;
-        margin-top: 24rem;
-        margin-left: 4rem;
+        margin-top: 21rem;
+        margin-left: 2rem;
     }
     .sectionOne div img{
         /* display: none; */
         width: 100%;
-        margin-right: 10rem;
+        margin-left: 1rem;
         margin-top: -25rem;
         z-index: 0;
 
     }
 
     .sectionOne h2 {
-        margin-top: -20rem;
-        margin-right: 10rem;
+        margin-top: -25rem;
         font-size: 2.75rem;
+        margin-left: 1rem;
+        
     }
     
     .sectionOne h4 {
         margin-top: -19rem;
         text-align: center;
-        margin-right: 10rem;
+        margin-left: 1.5rem;
         font-size: 1.5rem;
     }
     .sectionTwo {
-        margin-left: 3.40rem;
+        /* margin-left: 3.40rem; */
+        margin: 0 0 10rem 0;
     }
   
     .sectionTwo h2 {
         font-size: 2.75rem;
         text-align: center;
-        margin-right: 3rem;
+        margin-left: 1.25rem;
     }
 
     .sectionTwo img {
@@ -258,15 +259,42 @@ footer {
     .sectionTwo h4 {
         display: none;
     }
+    .teas {
+        margin-left: 2rem;
+    }
     .sectionThree {
         width: 100%;
         
     }
+    .sectionThree h2 {
+        position: relative;
+        bottom: 10rem;;
+    }
     .locations {
-        margin: 0;
-        
+        margin: 0px;
+        width: 10rem;
+        height: 13rem;
+        padding-bottom: 2rem;
 
     }
+    #locationOne{
+        position: relative;
+        bottom: 3rem;
+        left: 1rem;
+    }
+    #locationTwo {
+        position: relative;
+        top: 15rem;
+        right: 5rem;
+        width: 15rem;
+    }
+    #locationThree {
+        position: relative;
+        bottom: 18rem;
+        left: 14rem;
+        
+    }
+   
     .desktopNav {
         display: none;
     }
